@@ -1,5 +1,5 @@
 # === Live Simple Clock ===
-* Contributors: Armel Tissi
+* Contributors: [Armel Tissi](https://plus.google.com/113614768986509116921)
 * Requires at least: 3.0.1
 * Tested up to: 4.9
 * Requires PHP: 5.2.4
