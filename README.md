@@ -40,12 +40,17 @@ Upload Method:
 
 
 # == Screenshots ==
+1. Backoffice setting view
 
-2. backoffice setting
-3. backoffice setting
-4. Front end view
-5. Front end view
-6. Front end view
+* ![backoffice setting](screenshot-3.png)
+
+* ![Front end view](screenshot-4.png)
+
+2. Front end view
+
+* ![Front end view](screenshot-5.png)
+
+* ![Front end view](screenshot-6.png)
 
 # == Changelog ==
 
