@@ -3,6 +3,7 @@
 * Requires at least: 3.0.1
 * Tested up to: 4.9
 * Requires PHP: 5.2.4
+* Wordpress librairie plugin : [https://wordpress.org/plugins/live-simple-clock/](https://wordpress.org/plugins/live-simple-clock/)
 # == Description ==
 
 Live Simple Clock is a real time display plugin. It takes into account time zones and hours system formats 24h and 12h (PM, AM). With its short code you can display it anywhere on your site with precision.
