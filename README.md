@@ -1,17 +1,8 @@
 # === Live Simple Clock ===
-Contributors: Armel Tissi
-Donate link: ##
-Tags: clock, hours, live, simple
-Requires at least: 3.0.1
-Tested up to: 4.9
-Requires PHP: 5.2.4
-Stable tag: 1.1
-License: GPLv2 or later
-License URI: http://www.gnu.org/licenses/gpl-2.0.html
-
-
-Live Simple Clock is a real time display plugin. It takes into account time zones and hours system formats 24h and 12h (PM, AM). With its short code you can display it anywhere on your site with precision.
-
+* Contributors: Armel Tissi
+* Requires at least: 3.0.1
+* Tested up to: 4.9
+* Requires PHP: 5.2.4
 # == Description ==
 
 Live Simple Clock is a real time display plugin. It takes into account time zones and hours system formats 24h and 12h (PM, AM). With its short code you can display it anywhere on your site with precision.
@@ -75,22 +66,17 @@ ShowCase/Demo coming soon.
 # == Upgrade Notice ==
 
 = 1.1 =
-stable version
-*Shortcode
-*Hours System
-*Time zone
-*Style Option
-**Font
-**Font Size
-**Font Weight
-**Font Color
+* stable version
+* Shortcode
+* Hours System
+* Time zone
+* Style Option
+* Font custom
+* Font Size custom
+* Font Weight custom
+* Font Color custom
 
 = 1.0 =
-stable version
-*Shortcode
-*Time zone
-*Style Option
-**Font
-**Font Size
-**Font Weight
-**Font Color
+* Shortcode
+* Time zone
+* Style Option
