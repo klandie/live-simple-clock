@@ -2,7 +2,7 @@
 /*
 Plugin Name:  Live Simple Clock
 Description:  Live Simple Clock is a real time display plugin. It takes into account time zones and hours system formats 24h and 12h (PM, AM). With its short code you can display it anywhere on your site with precision.
-Version:      1.0
+Version:      1.2
 Author:       Armel Tissi
 Author URI:   http://tka-development.com
 License: 	  GPLv2 or later

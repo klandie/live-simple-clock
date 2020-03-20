@@ -22,6 +22,7 @@ function tka_lsc_custom_setting(){
 	register_setting( 'tka-lsc-setting-group','tka_lsc_title');
 	register_setting( 'tka-lsc-setting-group','tka_lsc_format');
 	register_setting( 'tka-lsc-setting-group','tka_lsc_fuseau');
+	register_setting( 'tka-lsc-setting-group','tka_lsc_hidesecond');
 	//Enregistrement css
 	register_setting( 'tka-lsc-setting-group','tka_lsc_font');
 	register_setting( 'tka-lsc-setting-group','tka_lsc_font_size');
@@ -34,6 +35,7 @@ function tka_lsc_custom_setting(){
 	add_settings_field( 'tka-general-title','Prefix','tka_general_title','setting_lcs.php','tka-lsc-general-option');
 	add_settings_field( 'tka-general-format','Time zone','tka_general_format','setting_lcs.php','tka-lsc-general-option');
 	add_settings_field( 'tka-general-fuseau','Fuseau Horaire','tka_general_fuseau','setting_lcs.php','tka-lsc-general-option');
+	add_settings_field( 'tka-general-hidesecond','Hide Second','tka_general_hidesecond','setting_lcs.php','tka-lsc-general-option');
 	//Field css
 	add_settings_field( 'tka-css-font','Font','tka_css_font','setting_lcs.php','tka-lsc-css-option');
 	add_settings_field( 'tka-css-font_size','Font Size','tka_css_font_size','setting_lcs.php','tka-lsc-css-option');
@@ -110,6 +112,19 @@ function tka_general_fuseau(){
 	}
 
 	$html .='</select><p><i>by default : "<b>0 (GMT)</b>"</i></p>';
+	echo $html;
+}
+
+function tka_general_hidesecond(){
+	$hidesecond = esc_attr( get_option( 'tka_lsc_hidesecond' ) );
+	$html = '' ;
+	if($hidesecond == true){
+		$html .= '<input type="checkbox" name="tka_lsc_hidesecond" value="true" checked />';
+	}else{
+		$html .= '<input type="checkbox" name="tka_lsc_hidesecond" value="false" />';
+	}
+
+	$html .='<p><i>by default : "<b>Visible</b>"</i></p>';
 	echo $html;
 }
 

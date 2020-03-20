@@ -1,7 +1,7 @@
 # === Live Simple Clock ===
 * Contributors: [Armel Tissi](https://plus.google.com/113614768986509116921)
 * Requires at least: 3.0.1
-* Tested up to: 4.9
+* Tested up to: 5.3
 * Requires PHP: 5.2.4
 * Wordpress librairie plugin : [https://wordpress.org/plugins/live-simple-clock/](https://wordpress.org/plugins/live-simple-clock/)
 # == Description ==
@@ -53,13 +53,25 @@ Upload Method:
 * ![Front end view](screenshot-6.png)
 
 # == Changelog ==
+= 1.2 March 20th, 2020 =
+* Tested With WordPress 5.3.2
+* stable version
+* Hide/Show second
 
-= 1.1 Mars 12th, 2018 =
+= 1.1 March 12th, 2018 =
 * Tested With WordPress 4.9.4
+* stable version
+* Hours System
+* Font custom
+* Font Size custom
+* Font Weight custom
+* Font Color custom
 
 = 1.0 Dec 28th, 2017 =
 * Tested With WordPress 4.9.1
-
+* Shortcode
+* Time zone
+* Style Option
 
 
 # = Have an Idea?  =
@@ -70,6 +82,9 @@ If you have any idea, you can contact Autor [here](https://plus.google.com/11361
 ShowCase/Demo coming soon.
 
 # == Upgrade Notice ==
+= 1.2 =
+* stable version
+* Hide/Show second
 
 = 1.1 =
 * stable version
